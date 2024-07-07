@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etproductid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product ID"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/ettruckid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Truck ID"
+        android:layout_below="@id/etproductid"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etsource"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Source"
+        android:layout_below="@id/ettruckid"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etdestination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Destination"
+        android:layout_below="@id/etsource"
+        android:layout_marginBottom="16dp"/>
+    <EditText
+        android:id="@+id/etstatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Status"
+        android:layout_below="@id/etdestination"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/btnDispatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dispatch"
+        android:backgroundTint="@color/black"
+        android:layout_below="@id/etstatus"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewdispatches"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDispatch"
+        android:layout_marginTop="16dp"/>
+</RelativeLayout>

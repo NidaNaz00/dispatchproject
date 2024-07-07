@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:iconTint="@color/white"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_item"
+        android:icon="@drawable/ic_item"
+        android:iconTint="@color/white"
+        android:title="Item"
+        />
+
+    <item
+        android:id="@+id/nav_truck"
+        android:icon="@drawable/ic_truck"
+        android:title="Truck"
+        android:enabled="true"
+        android:iconTint="@color/white"
+        android:visible="true" />
+    <item
+        android:id="@+id/nav_dispatch"
+        android:icon="@drawable/ic_dispatch"
+        android:title="Dispatch"
+        android:enabled="true"
+        android:iconTint="@color/white"
+        android:visible="true" />
+    <item
+        android:id="@+id/nav_account"
+        android:iconTint="@color/white"
+        android:icon="@drawable/ic_accounts"
+        android:title="Account" />
+
+</menu>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="#00FFD9">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Truck"
+        android:textStyle="bold"
+        android:layout_marginTop="20sp"
+        android:textSize="40sp"
+        android:layout_marginLeft="40sp"/>
+    <EditText
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/field"
+        android:layout_marginTop="50sp"
+        android:textColor="@color/black"
+        android:textColorHint="#060F89"
+        android:hint="Enter Truck Id"
+        android:paddingLeft="20sp"
+        android:id="@+id/ettid"
+        android:layout_marginLeft="5sp"/>
+    <EditText
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/field"
+        android:layout_marginTop="50sp"
+        android:textColor="@color/black"
+        android:textColorHint="#060F89"
+        android:hint="Enter Truck Name"
+        android:paddingLeft="20sp"
+        android:id="@+id/ettname"
+        android:layout_marginLeft="5sp"/>
+    <EditText
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/field"
+        android:textColor="@color/black"
+        android:textColorHint="#060F89"
+        android:layout_marginTop="50sp"
+        android:hint="Enter Truck Status"
+        android:paddingLeft="20sp"
+        android:id="@+id/ettstatus"
+        android:layout_marginLeft="5sp"/>
+    <EditText
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/field"
+        android:textColor="@color/black"
+        android:textColorHint="#060F89"
+        android:layout_marginTop="50sp"
+        android:hint="Enter Truck Model"
+        android:paddingLeft="20sp"
+        android:id="@+id/ettmodel"
+        android:layout_marginLeft="5sp"/>
+
+
+</LinearLayout>

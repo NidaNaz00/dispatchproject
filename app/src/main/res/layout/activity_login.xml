@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#D50000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120sp"
+        android:layout_marginTop="30sp"
+        android:text="Login"
+        android:textColor="@color/black"
+        android:textSize="70sp"
+        android:textStyle="bold"
+        android:id="@+id/loginTitle" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign in to continue"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginLeft="125sp"
+        android:layout_below="@id/loginTitle"
+        android:id="@+id/loginSubtitle" />
+    <ImageView
+        android:layout_width="160sp"
+        android:layout_height="160sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="160sp"
+        android:src="@drawable/circle2"
+        android:id="@+id/circle2Image" />
+    <ImageView
+        android:layout_width="160sp"
+        android:layout_height="160sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="560sp"
+        android:src="@drawable/circlebackground"
+        android:id="@+id/circleBackgroundImage" />
+
+    <FrameLayout
+        android:layout_width="330sp"
+        android:layout_height="420sp"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="220sp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/orange_background" />
+        <EditText
+            android:layout_width="310sp"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:padding="10sp"
+            android:layout_marginLeft="10sp"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="80sp"
+            android:textColorHint="#2B2828"
+            android:textColor="@color/black"
+            android:background="@drawable/rounded"
+            android:id="@+id/emailField" />
+        <EditText
+            android:layout_width="310sp"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:layout_marginLeft="10sp"
+            android:inputType="numberPassword"
+            android:padding="10sp"
+            android:textColorHint="#2B2828"
+            android:layout_marginTop="140sp"
+            android:textColor="@color/black"
+            android:background="@drawable/rounded"
+            android:id="@+id/passwordField" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="200sp"
+            android:padding="10sp"
+            android:backgroundTint="#00B8D4"
+            android:id="@+id/btnlogin"
+            android:text="Log in"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Forgot Password"
+            android:textColor="@color/black"
+            android:layout_marginTop="260sp"
+            android:id="@+id/forgpass"
+            android:layout_marginLeft="110sp"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="290sp"
+            android:text="Signup"
+            android:id="@+id/btnsign"
+            android:layout_marginLeft="30sp"
+            android:textColor="@color/black" />
+
+
+    </FrameLayout>
+</RelativeLayout>

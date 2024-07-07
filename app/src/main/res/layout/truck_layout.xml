@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="120sp"
+    app:cardCornerRadius="30sp"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF6D00">
+        <TextView
+            android:id="@+id/tvtruckId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Truck ID: 12345"
+            android:textStyle="bold"
+            android:layout_marginLeft="25sp"
+            android:layout_marginTop="10sp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:paddingBottom="8dp"/>
+
+        <!-- Truck Name TextView -->
+        <TextView
+            android:id="@+id/tvtruckName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Truck Name: John Doe"
+            android:layout_marginLeft="25sp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginTop="2sp"
+            android:layout_below="@id/tvtruckId"
+            android:paddingBottom="8dp"/>
+
+        <!-- Status TextView -->
+        <TextView
+            android:id="@+id/tvtruckStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status: Pending"
+            android:textColor="@color/black"
+            android:layout_marginLeft="25sp"
+            android:textSize="15sp"
+            android:layout_marginTop="2sp"
+            android:layout_below="@id/tvtruckName"/>
+
+        <!-- Model TextView -->
+        <TextView
+            android:id="@+id/tvtruckModel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25sp"
+            android:layout_marginTop="2sp"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:text="Model: 2002"
+            android:layout_below="@id/tvtruckStatus"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
